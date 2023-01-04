@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Dosis;
+    src: url("../assets/fonts/Dosis.ttf");
+}
+body {
+    font-family: Dosis;
+    color: var(--textColor);
+    margin: 0;
+    min-height: 100vh;
+}
+body.main-signin, body.login-page, body.error-page, body.signup-page, body.forgot-pwd-page {
+    background-image: linear-gradient(180deg, rgba(var(--bgDarkColor3),var(--bgImageLightGrad1)), rgb(var(--bgDarkColor3),var(--bgImageLightGrad2))), var(--bgImage);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body.main, body.base-game-page, body.search-page, body.about-page, body.transaction-page, body.admin-page {
+    color: var(--textColor);
+    background-image: linear-gradient(180deg, rgba(var(--bgDarkColor3),var(--bgImageDarkGrad1)), rgb(var(--bgDarkColor3),var(--bgImageDarkGrad2))), var(--bgImage);
+    background-size: cover;
+}
+
+.theme-default {
+    --bgImage: url("../assets/themes/default.gif");
+    --bgImageLightGrad1: 0.25;
+    --bgImageLightGrad2: 0.75;
+    --bgImageDarkGrad1: 0.5;
+    --bgImageDarkGrad2: 0.9;
+    --bgDarkColor4: 6, 6, 26;
+    --bgDarkColor3: 10, 10, 38;
+    --bgDarkColor2: 13, 13, 51;
+    --bgDarkColor1: 16, 16, 64;
+    --bgColor: 19, 19, 77;
+    --bgLightColor1: 22, 22, 89;
+    --bgLightColor2: 26, 26, 102;
+    --bgLightColor3: 29, 29, 115;
+    --bgLightColor4: 32, 32, 128;
+    --textColor: white;
+}
+
+.theme-spring {
+    --bgImage: url("../assets/themes/spring.gif");
+    --bgImageLightGrad1: 0.1;
+    --bgImageLightGrad2: 0.4;
+    --bgImageDarkGrad1: 0.2;
+    --bgImageDarkGrad2: 0.7;
+    --bgDarkColor4: 191,172,185;
+    --bgDarkColor3: 191,163,182;
+    --bgDarkColor2: 191,153,178;
+    --bgDarkColor1: 191,143,175;
+    --bgColor: 191,134,172;
+    --bgLightColor1: 191,124,169;
+    --bgLightColor2: 191,115,166;
+    --bgLightColor3: 191,105,163;
+    --bgLightColor4: 191,96,159;
+    --textColor: black;
+}
+
+.theme-summer {
+    --bgImage: url("../assets/themes/summer.gif");
+    --bgImageLightGrad1: 0.1;
+    --bgImageLightGrad2: 0.4;
+    --bgImageDarkGrad1: 0.2;
+    --bgImageDarkGrad2: 0.7;
+    --bgDarkColor4: 191,191,172;
+    --bgDarkColor3: 191,191,163;
+    --bgDarkColor2: 191,191,153;
+    --bgDarkColor1: 191,191,143;
+    --bgColor: 191,191,134;
+    --bgLightColor1: 191,191,124;
+    --bgLightColor2: 191,191,115;
+    --bgLightColor3: 191,191,105;
+    --bgLightColor4: 191,191,96;
+    --textColor: black;
+}
+
+.theme-autumn {
+    --bgImage: url("../assets/themes/autumn.gif");
+    --bgImageLightGrad1: 0.25;
+    --bgImageLightGrad2: 0.75;
+    --bgImageDarkGrad1: 0.5;
+    --bgImageDarkGrad2: 0.9;
+    --bgDarkColor4: 26,7,4;
+    --bgDarkColor3: 38,11,6;
+    --bgDarkColor2: 51,15,8;
+    --bgDarkColor1: 64,19,10;
+    --bgColor: 77,22,11;
+    --bgLightColor1: 89,26,13;
+    --bgLightColor2: 102,30,15;
+    --bgLightColor3: 115,33,17;
+    --bgLightColor4: 128,37,19;
+    --textColor: white;
+}
+
+.theme-winter {
+    --bgImage: url("../assets/themes/winter.gif");
+    --bgImageLightGrad1: 0.25;
+    --bgImageLightGrad2: 0.75;
+    --bgImageDarkGrad1: 0.5;
+    --bgImageDarkGrad2: 0.9;
+    --bgDarkColor4: 5,20,26;
+    --bgDarkColor3: 8,31,38;
+    --bgDarkColor2: 10,41,51;
+    --bgDarkColor1: 13,51,64;
+    --bgColor: 15,61,77;
+    --bgLightColor1: 18,71,89;
+    --bgLightColor2: 20,82,102;
+    --bgLightColor3: 23,92,115;
+    --bgLightColor4: 26,102,128;
+    --textColor: white;
+}
+
+:root {
+    --bgDarkGreen4: 11, 46, 11;
+    --bgDarkGreen3: 17, 66, 17;
+    --bgDarkGreen2: 22, 87, 22;
+    --bgDarkGreen1: 11, 107, 11;
+    --bgGreen: 32, 128, 32;
+    --bgLightGreen1: 37, 148, 37;
+    --bgLightGreen2: 42, 168, 42;
+    --bgLightGreen3: 47, 189, 47;
+    --bgLightGreen4: 52, 209, 52;
+}

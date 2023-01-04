@@ -1,0 +1,126 @@
+.store-nav {
+    margin: auto;
+    top: 10px;
+    margin-top: 10px;
+    position: sticky;
+    height: 40px;
+    width: 900px;
+    background-image: linear-gradient(90deg, rgb(var(--bgDarkColor1)), rgb(var(--bgDarkColor2)));
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.store-nav-control {
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, rgb(var(--bgLightColor2)), rgba(0,0,0,0));
+    background-size: 0px;
+    transition: 250ms ease-in-out;
+    background-repeat: no-repeat;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.store-nav-control:hover {
+    background-size: 100%;
+}
+
+.store-nav-search-spacer {
+    flex: 1;
+}
+
+.store-nav-cart {
+    width: 30px;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+.cart-amount {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    background-color: rgb(var(--bgLightColor4));
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 2px black;
+
+}
+.store-nav-search-form {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.search-box {
+    width: 250px;
+    height: 26px;
+    background-color: rgb(var(--bgColor));
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box-input {
+    margin-left: 5px;
+    width: 220px;
+    height: 20px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-family: Dosis;
+    color: var(--textColor);
+    font-size: 16px;
+}
+
+.search-box-icon {
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box-icon img {
+    height: 80%;
+}
+
+.search-box-result {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 350px;
+    background-color: rgb(var(--bgColor));
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-item {
+    padding: 5px 5px 5px 5px;
+    width: calc(100% - 10px);
+    height: calc(50px - 10px);
+    display: flex;
+    color: rgb(var(--textColor));
+    text-decoration: none;
+}
+
+.search-item img {
+    height: 100%;
+}
+
+.search-item-desc {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
