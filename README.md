@@ -1,6 +1,6 @@
 # Stellar-PHP
 
-Stellar-PHP là 1 trang web bán game viết được bằng PHP
+Stellar-PHP là 1 trang web bán game được viết bằng PHP
 
 ## Cài đặt
 
